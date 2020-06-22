@@ -19,7 +19,7 @@ xhttp.onreadystatechange = function() {
            console.log(phrase)
            guess.disabled = false;
            guess.value = "";
-           mistake.innerHTML = 10
+           mistake.innerHTML = 26
        })
 
        String.prototype.replaceAt = function(index, replacement) {
